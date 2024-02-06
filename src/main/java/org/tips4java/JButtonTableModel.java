@@ -1,10 +1,14 @@
 package org.tips4java;
-import java.util.*;
 import java.awt.BorderLayout;
-import javax.swing.*;
+import java.util.Arrays;
 
-//import RowTableModel;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
 
+@SuppressWarnings("serial")
 public class JButtonTableModel extends RowTableModel<JButton>
 {
 	private static String[] COLUMN_NAMES =
@@ -55,20 +59,21 @@ public class JButtonTableModel extends RowTableModel<JButton>
 		fireTableCellUpdated(row, column);
 	}
 
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void main(String[] args)
 	{
 		JButton one = new JButton("One");
 		JButton two = new JButton("Two");
 		JButton three = new JButton("Three");
 
-		//  Use the custom model
+		// toggle this between true and false to see different models in action
+		final boolean useJButtonModel = false;
 
-		JButtonTableModel model = new JButtonTableModel();
-
-		//  Use the BeanTableModel
-
-//		BeanTableModel<JButton> model =
-//			new BeanTableModel<JButton>(JButton.class, java.awt.Component.class);
+		final RowTableModel model = useJButtonModel 
+				//  Use the custom model
+			? new JButtonTableModel()
+					//  Use the BeanTableModel
+			: new BeanTableModel<JButton>(JButton.class, java.awt.Component.class);
 
 		model.addRow(one);
 		model.addRow(two);
@@ -91,7 +96,7 @@ public class JButtonTableModel extends RowTableModel<JButton>
 		frame.setLocationRelativeTo( null );
 		frame.setVisible(true);
 
-		JButton first = model.getRow(0);
+		JButton first = (JButton) model.getRow(0);
 		System.out.println(first);
 	}
 }
