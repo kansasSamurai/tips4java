@@ -1,3 +1,4 @@
+package org.tips4java;
 import java.awt.Component;
 import java.awt.KeyboardFocusManager;
 import javax.swing.JTextField;
@@ -6,6 +7,9 @@ import javax.swing.text.BadLocationException;
 import javax.swing.text.Document;
 import javax.swing.text.DocumentFilter;
 import javax.swing.text.DocumentFilter.FilterBypass;
+
+import org.tips4java.ChainedDocumentFilter;
+
 import javax.swing.text.JTextComponent;
 
 /**

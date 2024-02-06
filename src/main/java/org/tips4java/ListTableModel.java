@@ -1,4 +1,8 @@
+package org.tips4java;
 import java.util.*;
+
+//import RowTableModel;
+
 import java.sql.*;
 
 

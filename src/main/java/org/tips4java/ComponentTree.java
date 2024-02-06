@@ -1,3 +1,4 @@
+package org.tips4java;
 //package darrylbu.sample;
 
 //import darrylbu.model.ComponentTreeModel;

@@ -1,5 +1,8 @@
+package org.tips4java;
 import java.awt.event.*;
 import javax.swing.*;
+
+//import WrappedAction;
 
 public class EditableCellFocusAction extends WrappedAction implements ActionListener
 {

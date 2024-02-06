@@ -1,7 +1,8 @@
+package org.tips4java;
 /**
  * @(#)MonthView.java	1.0 2015/02/18
  */
-package darrylbu.component;
+
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -40,6 +41,9 @@ import javax.swing.table.AbstractTableModel;
 import javax.swing.table.JTableHeader;
 import javax.swing.table.TableCellRenderer;
 import javax.swing.table.TableColumnModel;
+
+//import YearMonthSpinner;
+
 //import darrylbu.renderer.TemporalTableCellRenderer;
 import java.awt.Cursor;
 import java.awt.Font;

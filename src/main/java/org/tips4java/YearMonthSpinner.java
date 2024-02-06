@@ -1,7 +1,8 @@
+package org.tips4java;
 /**
  * @(#)YearMonthSpinner.java	1.0 2015/02/17
  */
-package darrylbu.component;
+
 
 import java.awt.ComponentOrientation;
 import java.awt.FlowLayout;
@@ -12,8 +13,8 @@ import javax.swing.JPanel;
 import javax.swing.JSpinner;
 import javax.swing.JTextField;
 import javax.swing.event.ChangeListener;
-import darrylbu.editor.SpinnerTemporalEditor;
-import darrylbu.model.SpinnerTemporalModel;
+//import darrylbu.editor.SpinnerTemporalEditor;
+//import darrylbu.model.SpinnerTemporalModel;
 
 /**
  * YearMonthSpinner is a composite of two spinners, one for the month and the other for the year,

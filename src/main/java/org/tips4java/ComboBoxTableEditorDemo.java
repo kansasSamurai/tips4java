@@ -1,3 +1,4 @@
+package org.tips4java;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
@@ -6,6 +7,9 @@ import java.util.Vector;
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.table.*;
+
+//import PromptComboBoxRenderer;
+//import TableCellListener;
 
 public class ComboBoxTableEditorDemo
 {

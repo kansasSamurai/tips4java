@@ -1,3 +1,4 @@
+package org.tips4java;
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.*;
@@ -5,6 +6,8 @@ import java.util.Random;
 import javax.swing.*;
 import javax.swing.border.*;
 import javax.swing.event.*;
+
+//import RelativeLayout;
 
 public class ComponentMoverDemo extends JPanel
 	implements ChangeListener

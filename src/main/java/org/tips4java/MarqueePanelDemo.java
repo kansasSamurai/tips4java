@@ -1,9 +1,12 @@
+package org.tips4java;
 import java.awt.*;
 import java.awt.event.*;
 //import java.beans.*;
 import javax.swing.*;
 import javax.swing.border.*;
 import javax.swing.event.*;
+
+//import RelativeLayout;
 
 public class MarqueePanelDemo extends JPanel
 	implements ActionListener, ChangeListener, ItemListener

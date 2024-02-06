@@ -1,7 +1,8 @@
+package org.tips4java;
 /**
  * @(#)LocalDateCombo.java	1.0 2015/02/19
  */
-package darrylbu.component;
+
 
 import java.awt.Component;
 import java.time.LocalDate;

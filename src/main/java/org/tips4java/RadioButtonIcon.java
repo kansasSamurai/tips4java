@@ -1,11 +1,14 @@
+package org.tips4java;
 /**
  * @(#)RadioButtonIcon.java	1.0 03/18/09
  */
-package darrylbu.renderer;
+
 
 import javax.swing.Icon;
 import javax.swing.JRadioButton;
 import javax.swing.UIManager;
+
+//import ToggleButtonIcon;
 
 public class RadioButtonIcon extends ToggleButtonIcon {
 

@@ -1,3 +1,4 @@
+package org.tips4java;
 /**
  * @(#)DefaultTableHeaderCellRenderer.java	1.0 02/24/09
  */

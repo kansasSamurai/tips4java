@@ -1,3 +1,4 @@
+package org.tips4java;
 
 /**
  * @(#)VisualFontDesigner.java	2.0 08/27/10
@@ -31,8 +32,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
-import javax.jnlp.ClipboardService;
-import javax.jnlp.ServiceManager;
+//import javax.jnlp.ClipboardService;
+//import javax.jnlp.ServiceManager;
 import javax.swing.AbstractAction;
 import javax.swing.Action;
 import javax.swing.Box;
@@ -504,10 +505,10 @@ public class VisualFontDesigner extends JComponent {
           @Override
           public void actionPerformed(ActionEvent e) {
             try {
-              ClipboardService cs =
-                      (ClipboardService) ServiceManager.lookup("javax.jnlp.ClipboardService");
-              StringSelection transferable = new StringSelection(codeTextArea.getSelectedText());
-              cs.setContents(transferable);
+//              ClipboardService cs =
+//                      (ClipboardService) ServiceManager.lookup("javax.jnlp.ClipboardService");
+//              StringSelection transferable = new StringSelection(codeTextArea.getSelectedText());
+//              cs.setContents(transferable);
             } catch (Exception ex) {
               JOptionPane.showMessageDialog(null, "Error copying code to clipboard:\n" + ex);
               ex.printStackTrace();

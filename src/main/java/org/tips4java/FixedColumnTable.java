@@ -1,3 +1,4 @@
+package org.tips4java;
 import java.beans.*;
 import javax.swing.*;
 import javax.swing.event.*;

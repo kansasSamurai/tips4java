@@ -1,3 +1,4 @@
+package org.tips4java;
 import java.awt.*;
 import javax.swing.*;
 

@@ -1,3 +1,4 @@
+package org.tips4java;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
@@ -8,6 +9,9 @@ import java.util.Set;
 import java.util.HashSet;
 import javax.swing.*;
 import javax.swing.border.*;
+
+//import OverlapLayout;
+//import SwingUtils;
 
 /*
  *  The DisablePanel will simulate the usage of a "Glass Pane" except that the

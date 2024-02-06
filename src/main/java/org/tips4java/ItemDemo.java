@@ -1,7 +1,10 @@
+package org.tips4java;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.border.*;
+
+//import SortedComboBoxModel;
 
 public class ItemDemo extends JPanel
 {

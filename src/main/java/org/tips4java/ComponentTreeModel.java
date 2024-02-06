@@ -1,3 +1,4 @@
+package org.tips4java;
 /*
  * @(#)ComponentTreeModel.java	1.0 11/15/08
  */
@@ -10,6 +11,8 @@ import java.util.Map;
 import javax.swing.JComponent;
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeModel;
+
+//import SwingUtils;
 
 /**
  * A tree data model that reproduces the structure of a GUI to reveal the 

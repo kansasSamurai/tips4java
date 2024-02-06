@@ -1,3 +1,4 @@
+package org.tips4java;
 import java.awt.Point;
 import java.awt.Polygon;
 import java.awt.Rectangle;

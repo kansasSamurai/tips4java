@@ -1,11 +1,14 @@
+package org.tips4java;
 /**
  * @(#)CheckBoxIcon.java	1.0 03/18/09
  */
-package darrylbu.renderer;
+
 
 import javax.swing.Icon;
 import javax.swing.JCheckBox;
 import javax.swing.UIManager;
+
+//import ToggleButtonIcon;
 
 public class CheckBoxIcon extends ToggleButtonIcon {
 

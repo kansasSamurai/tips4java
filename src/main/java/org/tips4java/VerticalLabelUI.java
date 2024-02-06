@@ -1,7 +1,8 @@
+package org.tips4java;
 /**
  * @(#)VerticalLabelUI.java	1.0 02/18/09
  */
-package darrylbu.plaf.vertical;
+
 
 import java.awt.Component;
 import java.awt.Dimension;
@@ -17,7 +18,7 @@ import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicLabelUI;
 
 /**
- * A UI delegate for JLabel that rotates the label 90º
+ * A UI delegate for JLabel that rotates the label 90ï¿½
  * <P>
  * Extends {@link BasicLabelUI}.
  * <P>

@@ -1,9 +1,10 @@
+package org.tips4java;
 /**
  * @(#)SpinnerTemporalModel.java	1.0 2014/12/05
  */
-package darrylbu.model;
 
-import darrylbu.editor.SpinnerTemporalEditor;
+
+//import darrylbu.editor.SpinnerTemporalEditor;
 import java.time.temporal.ChronoUnit;
 import java.time.temporal.Temporal;
 import java.time.temporal.TemporalAdjuster;

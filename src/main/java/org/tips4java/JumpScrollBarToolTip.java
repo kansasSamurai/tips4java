@@ -1,13 +1,18 @@
+package org.tips4java;
 /**
  * @(#)JumpScrollBarToolTip.java 1.0.0 04/08/09
  */
-package darrylbu.renderer;
 
-import camickr.ScrollBarToolTip;
-import darrylbu.model.JumpScrollBarModel;
+
+//import camickr.ScrollBarToolTip;
+//import darrylbu.model.JumpScrollBarModel;
 import java.awt.event.MouseEvent;
 import javax.swing.JScrollBar;
 import javax.swing.JScrollPane;
+
+//import ScrollBarToolTip;
+//import ScrollBarToolTip.Position;
+//import ScrollBarToolTip.Style;
 
 /**
  * This class extends Rob Camick's ScrollBarToolTip to provide support for

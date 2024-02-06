@@ -1,9 +1,10 @@
+package org.tips4java;
 /**
  * @(#)MultisortTableHeaderCellRenderer.java	1.0 08/20/10
  */
-package darrylbu.renderer;
 
-import darrylbu.icon.AlphaIcon;
+
+//import darrylbu.icon.AlphaIcon;
 import javax.swing.Icon;
 import javax.swing.JTable;
 import javax.swing.RowSorter;

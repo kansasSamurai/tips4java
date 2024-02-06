@@ -1,3 +1,4 @@
+package org.tips4java;
 import java.awt.*;
 import java.awt.image.*;
 import javax.swing.*;

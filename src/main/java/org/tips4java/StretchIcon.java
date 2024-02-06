@@ -1,3 +1,4 @@
+package org.tips4java;
 /**
  * @(#)StretchIcon.java	1.0 03/27/12
  */

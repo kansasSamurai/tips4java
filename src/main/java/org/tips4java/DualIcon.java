@@ -1,7 +1,8 @@
+package org.tips4java;
 /**
  * @(#)DualIcon.java	1.0 03/18/09
  */
-package darrylbu.renderer;
+
 
 import java.awt.Component;
 import java.awt.Graphics;

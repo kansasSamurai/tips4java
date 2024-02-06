@@ -1,9 +1,10 @@
+package org.tips4java;
 /*
  * @(#)ComponentTreeCellRenderer.java	1.0 11/16/08
  */
-package darrylbu.renderer;
 
-import darrylbu.model.ComponentTreeModel;
+
+//import darrylbu.model.ComponentTreeModel;
 
 import java.awt.Color;
 import java.awt.Component;

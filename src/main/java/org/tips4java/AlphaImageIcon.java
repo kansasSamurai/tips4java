@@ -1,3 +1,5 @@
+package org.tips4java;
+
 /**
  * @(#)AlphaImageIcon.java	1.0 08/16/10
  */

@@ -1,7 +1,8 @@
+package org.tips4java;
 /**
  * @(#)SpinnerTemporalEditor.java	1.0 2014/12/15
  */
-package darrylbu.editor;
+
 
 import java.text.ParseException;
 import java.time.format.DateTimeFormatter;
@@ -13,7 +14,7 @@ import javax.swing.JFormattedTextField;
 import javax.swing.JSpinner;
 import javax.swing.text.DefaultFormatterFactory;
 import javax.swing.text.InternationalFormatter;
-import darrylbu.model.SpinnerTemporalModel;
+//import darrylbu.model.SpinnerTemporalModel;
 
 /**
  * This class extends {@link JSpinner.DefaultEditor} to support using a JSpinner with the temporal

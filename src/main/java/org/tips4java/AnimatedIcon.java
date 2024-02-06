@@ -1,3 +1,5 @@
+package org.tips4java;
+
 import java.awt.Component;
 import java.awt.Graphics;
 import java.awt.event.ActionEvent;

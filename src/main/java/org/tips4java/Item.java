@@ -1,3 +1,4 @@
+package org.tips4java;
 /**
  *  The Item class is designed to be used by Swing components that use a
  *  renderer to display an Object. Swing renderers rely on the toString()

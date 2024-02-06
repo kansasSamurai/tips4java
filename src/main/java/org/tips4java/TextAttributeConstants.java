@@ -1,10 +1,11 @@
-package darrylbu.util;
+package org.tips4java;
+
 
 /**
  * @(#)TextAttributeConstants.java	1.0 08/31/10
  */
-import darrylbu.component.VisualFontDesigner;
-import darrylbu.model.FontModel;
+//import darrylbu.component.VisualFontDesigner;
+//import darrylbu.model.FontModel;
 import static java.awt.font.TextAttribute.*;
 import java.awt.font.TextAttribute;
 import java.util.ArrayList;

@@ -1,3 +1,4 @@
+package org.tips4java;
 /**
  * @(#)MenuScroller.java	1.5.0 04/02/12
  */

@@ -1,7 +1,8 @@
+package org.tips4java;
 /**
  * @(#)ThumbnailIcon.java	1.0 04/12/12
  */
-package darrylbu.icon;
+
 
 import java.awt.Image;
 import java.awt.image.BufferedImage;

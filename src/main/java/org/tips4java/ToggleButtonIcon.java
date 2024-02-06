@@ -1,7 +1,8 @@
+package org.tips4java;
 /**
  * @(#)ToggleButtonIcon.java	1.0 03/18/09
  */
-package darrylbu.renderer;
+
 
 import javax.swing.Icon;
 import javax.swing.JToggleButton;

@@ -1,7 +1,10 @@
+package org.tips4java;
 import javax.swing.text.AttributeSet;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.DocumentFilter;
 import javax.swing.text.DocumentFilter.FilterBypass;
+
+import org.tips4java.ChainedDocumentFilter;
 
 /**
  *  The UpperCaseDocumentFilter converts all characters to upper case before

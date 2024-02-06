@@ -1,9 +1,10 @@
+package org.tips4java;
 /**
  * @(#)VerticalTableHeaderCellRenderer.java	1.0 02/26/09
  */
-package darrylbu.renderer;
 
-import darrylbu.plaf.vertical.VerticalLabelUI;
+
+//import darrylbu.plaf.vertical.VerticalLabelUI;
 import java.awt.Component;
 import java.awt.Graphics;
 import java.awt.Graphics2D;

@@ -1,3 +1,4 @@
+package org.tips4java;
 /**
  * @(#)ShrinkIcon.java	1.0 04/05/12
  */

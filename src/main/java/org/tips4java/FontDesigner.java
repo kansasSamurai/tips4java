@@ -1,6 +1,7 @@
-package darrylbu.util;
+package org.tips4java;
 
-import darrylbu.model.FontModel;
+
+//import darrylbu.model.FontModel;
 import java.awt.Font;
 import java.beans.PropertyChangeListener;
 

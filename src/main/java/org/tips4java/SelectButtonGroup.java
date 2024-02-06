@@ -1,7 +1,8 @@
+package org.tips4java;
 /*
  * @(#)SelectButtonGroup.java 08/11/09
  */
-package darrylbu.model;
+
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;

@@ -1,6 +1,9 @@
+package org.tips4java;
 import java.util.*;
 import java.awt.BorderLayout;
 import javax.swing.*;
+
+//import RowTableModel;
 
 public class JButtonTableModel extends RowTableModel<JButton>
 {

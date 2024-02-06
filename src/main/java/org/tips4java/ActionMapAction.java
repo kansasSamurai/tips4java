@@ -1,3 +1,5 @@
+package org.tips4java;
+
 import java.awt.event.*;
 import javax.swing.*;
 

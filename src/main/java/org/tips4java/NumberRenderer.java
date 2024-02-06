@@ -1,3 +1,4 @@
+package org.tips4java;
 import java.text.NumberFormat;
 import java.util.Locale;
 import javax.swing.SwingConstants;

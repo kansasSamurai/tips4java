@@ -1,7 +1,8 @@
-package darrylbu.model;
+package org.tips4java;
 
-import darrylbu.component.VisualFontDesigner;
-import darrylbu.util.TextAttributeConstants;
+
+//import darrylbu.component.VisualFontDesigner;
+//import darrylbu.util.TextAttributeConstants;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Paint;
@@ -12,6 +13,9 @@ import static java.awt.font.TextAttribute.*;
 import java.util.HashMap;
 import java.util.Map;
 import javax.swing.event.SwingPropertyChangeSupport;
+
+//import TextAttributeConstants;
+//import VisualFontDesigner;
 
 /**
  * A class that encapsulates a Font and provides convenient methods to query or change

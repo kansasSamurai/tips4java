@@ -1,7 +1,8 @@
+package org.tips4java;
 /**
  * @(#)FileClassLoader.java	1.0 12/09/2008
  */
-package darrylbu.file;
+
 
 import java.io.File;
 import java.io.FileInputStream;

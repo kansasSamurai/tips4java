@@ -1,9 +1,10 @@
+package org.tips4java;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.text.*;
 
-public class TextLineNumberTest
+public class TextLineNumberDemo
 {
 	public static void main(String[] args)
 	{

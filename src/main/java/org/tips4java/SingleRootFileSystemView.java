@@ -1,3 +1,4 @@
+package org.tips4java;
 import java.io.*;
 import javax.swing.filechooser.*;
 

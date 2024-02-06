@@ -1,3 +1,4 @@
+package org.tips4java;
 /*
  * @(#)SwingUtils.java	1.02 11/15/08
  *

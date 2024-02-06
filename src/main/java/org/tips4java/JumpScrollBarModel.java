@@ -1,7 +1,8 @@
+package org.tips4java;
 /*
  * @(#)JumpScrollBarModel.java 1.0.0 04/07/09
  */
-package darrylbu.model;
+
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

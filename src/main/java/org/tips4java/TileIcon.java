@@ -1,7 +1,8 @@
+package org.tips4java;
 /**
  * @(#)TileIcon.java	1.0 04/19/12
  */
-package darrylbu.icon;
+
 
 import java.awt.Component;
 import java.awt.Container;

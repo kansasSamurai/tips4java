@@ -1,3 +1,4 @@
+package org.tips4java;
 /*
  *	This programs uses the information found in the UIManager
  *  to create a table of key/value pairs for each Swing component.

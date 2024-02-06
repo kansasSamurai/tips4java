@@ -1,4 +1,5 @@
-package darrylbu.component;
+package org.tips4java;
+
 
 import javax.swing.Action;
 import javax.swing.Icon;
