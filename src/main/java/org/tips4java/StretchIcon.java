@@ -1,8 +1,4 @@
 package org.tips4java;
-/**
- * @(#)StretchIcon.java	1.0 03/27/12
- */
-//package darrylbu.icon;
 
 import java.awt.Component;
 import java.awt.Container;
@@ -28,7 +24,10 @@ import javax.swing.ImageIcon;
  * 
  * @version 1.0 03/27/12
  * @author Darryl
+ * @see https://tips4java.wordpress.com/2013/05/13/playing-with-shapes/ 
+ * 
  */
+@SuppressWarnings("serial")
 public class StretchIcon extends ImageIcon {
 
   /**

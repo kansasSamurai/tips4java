@@ -1,11 +1,19 @@
 package org.tips4java;
-import java.awt.*;
-import java.awt.event.*;
-import java.util.List;
-import java.util.*;
-import javax.swing.*;
-import javax.swing.table.*;
-import javax.swing.text.*;
+
+import java.awt.Component;
+import java.awt.event.ActionEvent;
+import java.awt.event.KeyEvent;
+import java.awt.event.MouseEvent;
+import java.util.EventObject;
+import java.util.Vector;
+
+import javax.swing.JTable;
+import javax.swing.ListSelectionModel;
+import javax.swing.SwingUtilities;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableColumnModel;
+import javax.swing.table.TableModel;
+import javax.swing.text.JTextComponent;
 
 /**
  * The RXTable provides some extensions to the default JTable
@@ -15,6 +23,7 @@ import javax.swing.text.*;
  *
  * 2) reorderColumns - static convenience method for reodering table columns
  */
+@SuppressWarnings("serial")
 public class RXTable extends JTable
 {
 	private boolean isSelectAllForMouseEvent = false;
@@ -107,7 +116,8 @@ public class RXTable extends JTable
      * @param rowData           the data for the new table
      * @param columnNames       names of each column
      */
-    public RXTable(Vector rowData, Vector columnNames)
+    @SuppressWarnings("rawtypes")
+	public RXTable(Vector rowData, Vector columnNames)
     {
         this(new DefaultTableModel(rowData, columnNames));
     }

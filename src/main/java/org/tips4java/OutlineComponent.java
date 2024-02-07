@@ -1,4 +1,5 @@
 package org.tips4java;
+
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -17,7 +18,11 @@ import javax.swing.JComponent;
  *  Shape objects can be created with an X/Y offset. These offsets will
  *  be ignored and the Shape outline will always be painted at (0, 0) so the
  *  outline is fully contained within the component.
+ *  
+ *  @see https://tips4java.wordpress.com/2013/05/13/playing-with-shapes/
+ *  
  */
+@SuppressWarnings("serial")
 public class OutlineComponent extends JComponent
 {
 	private Shape shape;
@@ -251,7 +256,7 @@ public class OutlineComponent extends JComponent
 	public boolean contains(int x, int y)
 	{
 		Insets insets = getInsets();
-		int shift = getShift();
+		// int shift = getShift();
 
 		//  Check to see if the Shape contains the point. Take into account
 		//  the Shape X/Y coordinates, Border insets and Shape translation.

@@ -1,17 +1,19 @@
 package org.tips4java;
+
 import java.awt.Point;
 import java.awt.Polygon;
 import java.awt.Rectangle;
 import java.awt.Shape;
 import java.awt.geom.AffineTransform;
-import java.awt.geom.Path2D;
-import java.awt.geom.GeneralPath;
 
 /**
- *	Collection of static methods to make working with Shapes easier.
+ * Collection of static methods to make working with Shapes easier.
+ *
+ * @see https://tips4java.wordpress.com/2013/05/13/playing-with-shapes/
  */
 public class ShapeUtils
 {
+
 	/**
 	 *  The points of the Shape are calculated by specifying the radius of each
 	 *  point. You must specify the number of points to be calculated as well
@@ -84,4 +86,5 @@ public class ShapeUtils
 
 		return translated;
 	}
+
 }

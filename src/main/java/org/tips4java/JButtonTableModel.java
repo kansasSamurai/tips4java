@@ -1,4 +1,5 @@
 package org.tips4java;
+
 import java.awt.BorderLayout;
 import java.util.Arrays;
 

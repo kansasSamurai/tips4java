@@ -1,4 +1,5 @@
 package org.tips4java;
+
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
@@ -18,7 +19,11 @@ import javax.swing.JComponent;
  *  fully contained within the component.
  *
  *  The foreground color will be used to "fill" the Shape.
+ *  
+ *  @see https://tips4java.wordpress.com/2013/05/13/playing-with-shapes/
+ *  
  */
+@SuppressWarnings("serial")
 public class ShapeComponent extends JComponent
 {
 	private Shape shape;

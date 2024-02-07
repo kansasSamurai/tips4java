@@ -1,13 +1,24 @@
 package org.tips4java;
-import java.awt.*;
-import javax.swing.*;
-import javax.swing.text.*;
 
-/*
+import java.awt.Container;
+import java.awt.FontMetrics;
+import java.awt.Point;
+import java.awt.Rectangle;
+
+import javax.swing.JTextArea;
+import javax.swing.JViewport;
+import javax.swing.SwingUtilities;
+import javax.swing.text.BadLocationException;
+import javax.swing.text.Element;
+import javax.swing.text.JTextComponent;
+import javax.swing.text.Utilities;
+import javax.swing.text.View;
+
+/**
  *	A collection of static methods that provide added functionality for
  *  text components (most notably, JTextArea and JTextPane)
  *
- *  See also: javax.swing.text.Utilities
+ *  @see javax.swing.text.Utilities
  */
 public class RXTextUtilities
 {
@@ -147,4 +158,5 @@ public class RXTextUtilities
 
 		return lines;
 	}
+
 }

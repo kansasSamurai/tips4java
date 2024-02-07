@@ -1,4 +1,5 @@
 package org.tips4java;
+
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Graphics2D;
@@ -10,6 +11,9 @@ import javax.swing.Icon;
 
 /**
  *  An Icon that will paint a filled Shape with a specified Color.
+ *  
+ *  @see https://tips4java.wordpress.com/2013/05/13/playing-with-shapes/
+ *  
  */
 public class ShapeIcon implements Icon
 {

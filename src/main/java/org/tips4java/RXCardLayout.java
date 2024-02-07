@@ -1,9 +1,16 @@
 package org.tips4java;
-import java.awt.*;
-import java.awt.event.*;
-import java.util.*;
-import javax.swing.*;
-import javax.swing.event.*;
+
+import java.awt.CardLayout;
+import java.awt.Component;
+import java.awt.Container;
+import java.awt.event.ActionEvent;
+import java.awt.event.HierarchyEvent;
+import java.awt.event.HierarchyListener;
+import java.util.ArrayList;
+
+import javax.swing.AbstractAction;
+import javax.swing.Action;
+import javax.swing.JComponent;
 
 /**
  * The <code>RXCardLayout</code> provides some extensions to the
@@ -14,7 +21,11 @@ import javax.swing.event.*;
  * c) Next and Previous Actions
  *
  * This added support will only work when a JComponent is added as a Card.
+ * 
+ * @see https://tips4java.wordpress.com/2008/11/01/card-layout-actions/
+ * 
  */
+@SuppressWarnings("serial")
 public class RXCardLayout extends CardLayout implements HierarchyListener
 {
 	private ArrayList<JComponent> cards = new ArrayList<JComponent>();

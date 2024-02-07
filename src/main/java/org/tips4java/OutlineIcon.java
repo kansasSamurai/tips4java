@@ -1,4 +1,5 @@
 package org.tips4java;
+
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Component;
@@ -11,9 +12,13 @@ import javax.swing.Icon;
 
 /**
  *  An Icon that will paint a filled Shape with a specified Color.
+ *  
+ *  @see https://tips4java.wordpress.com/2013/05/13/playing-with-shapes/
+ *  
  */
 public class OutlineIcon implements Icon
 {
+
 	private Shape shape;
 	private Color color;
 	private int thickness;
@@ -225,4 +230,5 @@ public class OutlineIcon implements Icon
 
 		g2d.dispose();
 	}
+
 }
